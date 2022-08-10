@@ -333,6 +333,11 @@ section{
         border-radius: .5rem;
         border:var(--border);
     }
+    .footer{
+        flex-flow: column;
+        text-align: center;
+    }
+
    
 }
 @media (max-width:450px){
