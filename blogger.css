@@ -201,7 +201,8 @@ section{
 .contact form .inputBox input{
     width:49%;
 }
-/* Footer */
+
+/* footer styling*/
 
 .footer{
     display: flex;
@@ -239,7 +240,6 @@ section{
 .footer .follow a:hover{
     background:var(--orange);
 }
-
 
 
 

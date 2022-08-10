@@ -31,5 +31,18 @@ const getRandomUserData = () =>{
     .then((data) => data.json())
     .then((data) => console.log(data));
 };
+const generateCards = (data) => {
+    const result =data.[0];
 
+    const userCard =`
+    <div class="cards>
+        <div class="left-side">
+            <h2>${result.</h2>
+        </div>
+        <div class="right-side">
+
+        </div>
+    </div>
+    `
+}
 getRandomUserData();
