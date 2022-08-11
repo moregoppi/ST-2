@@ -24,3 +24,10 @@ window.onscroll = () =>{
   searchIcon.classList.remove('fa-times');
   searchForm.classList.remove('active');
 }
+// Fetcing data from api
+const getRandomUserData = () => {
+  fetch(`https://jsonplaceholder.typicode.com/posts?utm_source=Mailerlite&utm_medium=E-mail&utm_campaign=Test%20Series&utm_term=2022-08-11`)
+  .then((data) => data.json())
+  .then((data) => console.log(data));
+};
+getRandomUserData();
